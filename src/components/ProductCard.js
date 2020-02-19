@@ -9,7 +9,7 @@ function ContactCard(props) {
           <h5 className="card-title">{props.info.name}</h5>
           <p className="card-text"> Precio : {props.info.price} $</p>
           <p className="card-text"><small className="text-muted">{props.info.description}</small></p>
-          <button type="button" name="" id="" class="btn btn-primary btn-lg btn-block" onclick="Add()">Agregar al carrito</button>
+          <button type="button" name="" id="" className="btn btn-primary btn-lg btn-block" onClick={props.metodo} >Agregar al carrito</button>
           </div>
          </div>
       
